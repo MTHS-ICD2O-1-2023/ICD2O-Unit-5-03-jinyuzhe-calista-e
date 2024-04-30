@@ -33,23 +33,16 @@
       <form action="#">
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" tern="-?[0-9]*(\.[0-9]+)?" id="user-number" />
+          <input class="mdl-textfield__input" type="text" tern="-?[0-9]*(\.[0-9]+)?" id="age" />
           <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="user-number">User Number</label>
-          <!-- class "mdl-textfield__error" -->
-          <li class="mdl-menu__item" data-val="one-to-four">1-4</li>
-          <li class="mdl-menu__item" data-val="five-to-seven">5-7</li>
-          <li class="mdl-menu__item" data-val="eight-to-twelve">8-12</li>
-          <li class="mdl-menu__item" data-val="thirteen-to-seventeen">4</li>
-          <li class="mdl-menu__item" data-val="five">5</li>
-          <li class="mdl-menu__item" data-val="six">6</li>
+          <label class="mdl-textfield__label" for="age">Age</label>
           <span class="mdl-textfield__error">Input is not a number.</span>
         </div>
         <br />
         <!-- Accent-colored raised button with ripple -->
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="checkNumber()">
-          Check Number
+          onclick="findMovieType()">
+          Find movie type
         </button>
       </form>
       <br />
