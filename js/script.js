@@ -16,5 +16,10 @@ if (age >= 18) {
     "You can see a PG-13 movie alone."
 } else if (age <= 12) {
   document.getElementById("answer").innerHTML =
-}    "You can see a G or PG movie alone."
+    "You can see a G or PG movie alone."
+} else {
+  document.getElementById("answer").innerHTML =
+    "Uh. You're too young for most things."
+  }
+  console.log("Thanks for verifying your age!")
 }
